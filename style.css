@@ -1,0 +1,97 @@
+body{
+  
+   background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100%;
+  color: #fff;
+  
+  font-family: cursive,sans-serif;
+    font-weight: 400;
+    
+    font-size: 0.875em;
+    letter-spacing: 0.063em;
+    
+}
+
+#wish{
+   
+   font-size: 70px;
+   text-shadow: 2px 3px #1ecfee;
+   text-transform: uppercase;
+   font-weight: bold;
+   
+
+
+}
+
+
+#year{
+   text-shadow: 2px 3px rgb(253, 216, 4) ;
+   font-weight:900;
+   font-size: 100px;
+ 
+   
+}
+#reg{
+   text-shadow: 2px 3px #33bd33;
+     font-size:45px;
+     letter-spacing: 0.093em;
+     
+     text-transform: uppercase;
+    
+   
+}
+#pd{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size:35px;
+   margin-top:-1px;
+   
+
+}
+.myimg{
+   align-items: center;
+   height:7%;
+   width:3%;
+   border-radius:50%;
+   
+   
+}
+.myimg:hover .description{
+   visibility:visible;
+   opacity: 1;
+   
+}
+ul{
+   font-size: 20px;
+  
+}
+.ballon{
+   width:100%;
+   margin-top: -280px;
+}
+@media screen and (max-width: 500px) {
+   #wish{
+   
+      font-size: 50px;
+      text-shadow: 2px 3px #1ecfee;
+      text-transform: uppercase;
+      font-weight: bold;
+      
+   
+   
+   }
+   .myimg{
+      align-items: center;
+      height:10%;
+      width:5%;
+      border-radius:50%;
+      
+      
+   }
+   .ballon{
+      width:100%;
+      margin-top: 0px;
+   }
+ }
+
