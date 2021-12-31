@@ -68,7 +68,7 @@ ul{
 }
 .ballon{
    width:100%;
-   margin-top: -280px;
+   margin-top: -250px;
 }
 @media screen and (max-width: 500px) {
    #wish{
